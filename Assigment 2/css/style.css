@@ -1,0 +1,127 @@
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: aqua;
+    font-size: 15px;
+    background: #28292E;
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+.container{
+    width: 1000px;
+    margin: 20px auto 40px;
+    background: #35363B;
+    border: 1px solid #35363B;
+}
+.header{
+    width: 100%;
+    overflow: hidden;
+}
+.logo{
+    width: 20%;
+    float: left;
+}
+.logo img{
+    max-height: 40px;
+}
+
+nav{
+    width: 80%;
+    float: left;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 8px 7px;
+    display: block;
+    text-transform: uppercase;
+    color: #9B9CA1;
+}
+
+.main_content{
+    overflow: hidden;
+    padding: 39px 25px;
+}
+.full_img{
+    float: left;
+    display: block;
+    width: 30%;
+    padding: 0 5px;
+    box-sizing: border-box;
+}
+.full_img img{}
+
+.me{
+    float: left;
+    display: block;
+    width: 70%;
+    padding: 0 33px;
+    box-sizing: border-box;
+}
+.name{
+    margin: 0;
+}
+.name h1{
+    margin: 0;
+    font-size: 40px;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 0px 0px;
+}
+.name h3{
+    margin: 0;
+    padding: 0;
+}
+
+.details{
+    padding: 12px 0px;
+}
+
+.title{
+    text-transform: uppercase;
+}
+table{}
+table tr{}
+table tr td{}
+
+footer{
+    width: 100%;
+    background: #E8676B;
+    min-height: 50px;
+}
+footer ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+footer ul li{
+    
+    display: inline-block;
+    text-align: center;
+    margin-left: 18px;
+    padding: 10px 10px;
+}
+footer ul li a{
+    color: #EEF3FA;
+    font-size: 20px;
+    padding: 0px 35px;
+    
+}
+
+
